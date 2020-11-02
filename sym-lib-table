@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 451-rescue)(type Legacy)(uri ${KIPRJMOD}/451-rescue.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri /Users/john/Desktop/rosco_m68k/68k451/New_Library.lib)(options "")(descr ""))
+)

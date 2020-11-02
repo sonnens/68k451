@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/john/Desktop/rosco_m68k/68k451/451/451.sch</source>
+    <date>Sunday, August 23, 2020 at 04:34:45 pm</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>451.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PAD strobe/" tstamps="/5F4B6B1E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5F4B6B1D.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MK1">
+      <value>Mounting_Hole_PAD</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm</footprint>
+      <libsource lib="451-rescue" part="Mounting_Hole_PAD-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6CFED2</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>Mounting_Hole_PAD</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm</footprint>
+      <libsource lib="451-rescue" part="Mounting_Hole_PAD-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6CFF98</tstamp>
+    </comp>
+    <comp ref="MK3">
+      <value>Mounting_Hole_PAD</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm</footprint>
+      <libsource lib="451-rescue" part="Mounting_Hole_PAD-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6CFFFA</tstamp>
+    </comp>
+    <comp ref="MK4">
+      <value>Mounting_Hole_PAD</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm</footprint>
+      <libsource lib="451-rescue" part="Mounting_Hole_PAD-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A6D003F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>68010D</value>
+      <footprint>Package_DIP:DIP-64_W22.86mm_Socket</footprint>
+      <datasheet>https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf</datasheet>
+      <libsource lib="CPU_NXP_68000" part="68010D" description="16/32-bit Microprocessor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F41E042</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>8Mhz</value>
+      <footprint>Oscillator:Oscillator_DIP-8</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</datasheet>
+      <libsource lib="Oscillator" part="CXO_DIP8" description="Crystal Clock Oscillator, DIP8-style metal package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F43D12C</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>47k</value>
+      <footprint>Resistor_THT:R_Array_SIP10</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network09_US" description="9 resistor network, star topology, bussed resistors, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F44D333</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74LS245</value>
+      <footprint>Package_SO:SO-20_12.8x7.5mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS245</datasheet>
+      <libsource lib="74xx" part="74LS245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F458781</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74LS245</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS245</datasheet>
+      <libsource lib="74xx" part="74LS245" description="Octal BUS Transceivers, 3-State outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F45FE06</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>68451</value>
+      <footprint>Package_DIP:DIP-64_W22.86mm_Socket</footprint>
+      <datasheet>https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf</datasheet>
+      <libsource lib="New_Library" part="mc68451" description="16/32-bit Microprocessor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F42176F</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74LS00</value>
+      <footprint>Package_SO:SOIC-14W_7.5x9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74ls00</datasheet>
+      <libsource lib="74xx" part="74LS00" description="quad 2-input NAND gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F49A598</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74LS04</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS04</datasheet>
+      <libsource lib="74xx" part="74LS04" description="Hex Inverter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4A1C91</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LS125</value>
+      <footprint>Package_SO:SOIC-14W_7.5x9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS125</datasheet>
+      <libsource lib="74xx" part="74LS125" description="Quad buffer 3-State outputs"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4C0C83</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LS32</value>
+      <footprint>Package_SO:SOIC-14W_7.5x9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS32</datasheet>
+      <libsource lib="74xx" part="74LS32" description="Quad 2-input OR"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4C1069</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4F40FF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4F4B31</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4FF013</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PAD strobe/" tstamps="/5F4B6B1E/"/>
+      <tstamp>5F4FF90E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="451-rescue" part="Mounting_Hole_PAD-Mechanical">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole_PAD-Mechanical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS00">
+      <aliases>
+        <alias>74LS37</alias>
+        <alias>7400</alias>
+        <alias>74HCT00</alias>
+        <alias>74HC00</alias>
+      </aliases>
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74ls00</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS04">
+      <aliases>
+        <alias>74HC04</alias>
+        <alias>74HCT04</alias>
+        <alias>74AHC04</alias>
+        <alias>74AHCT04</alias>
+      </aliases>
+      <description>Hex Inverter</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS04</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SSOP?14*</fp>
+        <fp>TSSOP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS125">
+      <aliases>
+        <alias>74LVC125</alias>
+      </aliases>
+      <description>Quad buffer 3-State outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS125</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="3state"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="3state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="3state"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="3state"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS245">
+      <aliases>
+        <alias>74HC245</alias>
+      </aliases>
+      <description>Octal BUS Transceivers, 3-State outputs</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS245</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS245</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A-&gt;B" type="input"/>
+        <pin num="2" name="A0" type="3state"/>
+        <pin num="3" name="A1" type="3state"/>
+        <pin num="4" name="A2" type="3state"/>
+        <pin num="5" name="A3" type="3state"/>
+        <pin num="6" name="A4" type="3state"/>
+        <pin num="7" name="A5" type="3state"/>
+        <pin num="8" name="A6" type="3state"/>
+        <pin num="9" name="A7" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="B7" type="3state"/>
+        <pin num="12" name="B6" type="3state"/>
+        <pin num="13" name="B5" type="3state"/>
+        <pin num="14" name="B4" type="3state"/>
+        <pin num="15" name="B3" type="3state"/>
+        <pin num="16" name="B2" type="3state"/>
+        <pin num="17" name="B1" type="3state"/>
+        <pin num="18" name="B0" type="3state"/>
+        <pin num="19" name="CE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS32">
+      <description>Quad 2-input OR</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS32</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CPU_NXP_68000" part="68000D">
+      <aliases>
+        <alias>68010D</alias>
+      </aliases>
+      <description>16/32-bit Microprocessor</description>
+      <docs>https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">68000D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D4" type="BiDi"/>
+        <pin num="2" name="D3" type="BiDi"/>
+        <pin num="3" name="D2" type="BiDi"/>
+        <pin num="4" name="D1" type="BiDi"/>
+        <pin num="5" name="D0" type="BiDi"/>
+        <pin num="6" name="AS" type="output"/>
+        <pin num="7" name="UDS" type="output"/>
+        <pin num="8" name="LDS" type="output"/>
+        <pin num="9" name="R/W" type="output"/>
+        <pin num="10" name="DTACK" type="input"/>
+        <pin num="11" name="BG" type="output"/>
+        <pin num="12" name="BGACK" type="input"/>
+        <pin num="13" name="BR" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="CLK" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="HALT" type="BiDi"/>
+        <pin num="18" name="RESET" type="BiDi"/>
+        <pin num="19" name="VMA" type="output"/>
+        <pin num="20" name="E" type="output"/>
+        <pin num="21" name="VPA" type="input"/>
+        <pin num="22" name="BERR" type="input"/>
+        <pin num="23" name="IPL2" type="input"/>
+        <pin num="24" name="IPL1" type="input"/>
+        <pin num="25" name="IPL0" type="input"/>
+        <pin num="26" name="FC2" type="output"/>
+        <pin num="27" name="FC1" type="output"/>
+        <pin num="28" name="FC0" type="output"/>
+        <pin num="29" name="A1" type="output"/>
+        <pin num="30" name="A2" type="output"/>
+        <pin num="31" name="A3" type="output"/>
+        <pin num="32" name="A4" type="output"/>
+        <pin num="33" name="A5" type="output"/>
+        <pin num="34" name="A6" type="output"/>
+        <pin num="35" name="A7" type="output"/>
+        <pin num="36" name="A8" type="output"/>
+        <pin num="37" name="A9" type="output"/>
+        <pin num="38" name="A10" type="output"/>
+        <pin num="39" name="A11" type="output"/>
+        <pin num="40" name="A12" type="output"/>
+        <pin num="41" name="A13" type="output"/>
+        <pin num="42" name="A14" type="output"/>
+        <pin num="43" name="A15" type="output"/>
+        <pin num="44" name="A16" type="output"/>
+        <pin num="45" name="A17" type="output"/>
+        <pin num="46" name="A18" type="output"/>
+        <pin num="47" name="A19" type="output"/>
+        <pin num="48" name="A20" type="output"/>
+        <pin num="49" name="VCC" type="power_in"/>
+        <pin num="50" name="A21" type="output"/>
+        <pin num="51" name="A22" type="output"/>
+        <pin num="52" name="A23" type="output"/>
+        <pin num="53" name="GND" type="power_in"/>
+        <pin num="54" name="D15" type="BiDi"/>
+        <pin num="55" name="D14" type="BiDi"/>
+        <pin num="56" name="D13" type="BiDi"/>
+        <pin num="57" name="D12" type="BiDi"/>
+        <pin num="58" name="D11" type="BiDi"/>
+        <pin num="59" name="D10" type="BiDi"/>
+        <pin num="60" name="D9" type="BiDi"/>
+        <pin num="61" name="D8" type="BiDi"/>
+        <pin num="62" name="D7" type="BiDi"/>
+        <pin num="63" name="D6" type="BiDi"/>
+        <pin num="64" name="D5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network09_US">
+      <description>9 resistor network, star topology, bussed resistors, small US symbol</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network09_US</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="common" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="R9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="New_Library" part="68451">
+      <aliases>
+        <alias>mc68451</alias>
+      </aliases>
+      <description>16/32-bit Microprocessor</description>
+      <docs>https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">68451</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD0" type="output"/>
+        <pin num="2" name="MAS" type="BiDi"/>
+        <pin num="3" name="HAD" type="BiDi"/>
+        <pin num="4" name="MODE" type="BiDi"/>
+        <pin num="5" name="WIN" type="BiDi"/>
+        <pin num="6" name="FAULT" type="output"/>
+        <pin num="7" name="IRQ" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="FC3" type="BiDi"/>
+        <pin num="10" name="FC2" type="BiDi"/>
+        <pin num="11" name="FC1" type="BiDi"/>
+        <pin num="12" name="FC0" type="BiDi"/>
+        <pin num="13" name="AS" type="input"/>
+        <pin num="14" name="RESET" type="input"/>
+        <pin num="15" name="DTACK" type="input"/>
+        <pin num="16" name="ED" type="input"/>
+        <pin num="17" name="UDS" type="BiDi"/>
+        <pin num="18" name="LDS" type="BiDi"/>
+        <pin num="19" name="GO" type="BiDi"/>
+        <pin num="20" name="ANY" type="BiDi"/>
+        <pin num="21" name="ALL" type="BiDi"/>
+        <pin num="22" name="IACK" type="output"/>
+        <pin num="23" name="CS" type="input"/>
+        <pin num="24" name="CLOCK" type="input"/>
+        <pin num="25" name="VCC" type="power_in"/>
+        <pin num="26" name="R/W" type="input"/>
+        <pin num="27" name="RS1" type="input"/>
+        <pin num="28" name="RS2" type="input"/>
+        <pin num="29" name="RS3" type="input"/>
+        <pin num="30" name="RS4" type="input"/>
+        <pin num="31" name="RS5" type="input"/>
+        <pin num="32" name="A8" type="input"/>
+        <pin num="33" name="A9" type="input"/>
+        <pin num="34" name="A10" type="input"/>
+        <pin num="35" name="A11" type="input"/>
+        <pin num="36" name="A12" type="input"/>
+        <pin num="37" name="A13" type="input"/>
+        <pin num="38" name="A14" type="input"/>
+        <pin num="39" name="A15" type="input"/>
+        <pin num="40" name="A16" type="input"/>
+        <pin num="41" name="GND" type="power_out"/>
+        <pin num="42" name="A17" type="input"/>
+        <pin num="43" name="A18" type="input"/>
+        <pin num="44" name="A19" type="input"/>
+        <pin num="45" name="A20" type="input"/>
+        <pin num="46" name="A21" type="input"/>
+        <pin num="47" name="A22" type="input"/>
+        <pin num="48" name="A23" type="input"/>
+        <pin num="49" name="PAD15" type="output"/>
+        <pin num="50" name="PAD14" type="output"/>
+        <pin num="51" name="PAD13" type="output"/>
+        <pin num="52" name="PAD12" type="output"/>
+        <pin num="53" name="PAD11" type="output"/>
+        <pin num="54" name="PAD10" type="output"/>
+        <pin num="55" name="PAD9" type="output"/>
+        <pin num="56" name="VCC" type="power_in"/>
+        <pin num="57" name="PAD8" type="output"/>
+        <pin num="58" name="PAD7" type="output"/>
+        <pin num="59" name="PAD6" type="output"/>
+        <pin num="60" name="PAD5" type="output"/>
+        <pin num="61" name="PAD4" type="output"/>
+        <pin num="62" name="PAD3" type="output"/>
+        <pin num="63" name="PAD2" type="output"/>
+        <pin num="64" name="PAD1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="CXO_DIP8">
+      <aliases>
+        <alias>TFT660</alias>
+      </aliases>
+      <description>Crystal Clock Oscillator, DIP8-style metal package</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</docs>
+      <footprints>
+        <fp>Oscillator*DIP*8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CXO_DIP8</field>
+        <field name="Footprint">Oscillator:Oscillator_DIP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="8" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="451-rescue">
+      <uri>/Users/john/Desktop/rosco_m68k/68k451/451/451-rescue.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/Library/Application Support/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="CPU_NXP_68000">
+      <uri>/Library/Application Support/kicad/library/CPU_NXP_68000.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="New_Library">
+      <uri>/Users/john/Desktop/rosco_m68k/68k451/New_Library.lib</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>/Library/Application Support/kicad/library/Oscillator.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(MK1-Pad1)">
+      <node ref="MK1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(MK2-Pad1)">
+      <node ref="MK2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(MK3-Pad1)">
+      <node ref="MK3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(MK4-Pad1)">
+      <node ref="MK4" pin="1"/>
+    </net>
+    <net code="5" name="/D4">
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="6" name="/DTACK">
+      <node ref="U1" pin="10"/>
+      <node ref="U2" pin="15"/>
+      <node ref="RN1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="13" name="/D3">
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="20" name="/FC2">
+      <node ref="U1" pin="26"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="21" name="/FC1">
+      <node ref="U1" pin="27"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="22" name="/FC0">
+      <node ref="U1" pin="28"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="23" name="PA1">
+      <node ref="U2" pin="27"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="24" name="/D2">
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="25" name="PA2">
+      <node ref="U1" pin="30"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="26" name="PA3">
+      <node ref="U1" pin="31"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="27" name="PA4">
+      <node ref="U1" pin="32"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="28" name="PA5">
+      <node ref="U1" pin="33"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="29" name="PA6">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="30" name="PA7">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="31" name="/A8">
+      <node ref="U2" pin="32"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="32" name="/A9">
+      <node ref="U1" pin="37"/>
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="33" name="/A10">
+      <node ref="U2" pin="34"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="34" name="/A11">
+      <node ref="U2" pin="35"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="35" name="/D1">
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="36" name="/A12">
+      <node ref="U1" pin="40"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="37" name="/A13">
+      <node ref="U1" pin="41"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="38" name="/A14">
+      <node ref="U1" pin="42"/>
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="39" name="/A15">
+      <node ref="U1" pin="43"/>
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="40" name="/A16">
+      <node ref="U1" pin="44"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="41" name="/A17">
+      <node ref="U2" pin="42"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="42" name="/A18">
+      <node ref="U2" pin="43"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="43" name="/A19">
+      <node ref="U1" pin="47"/>
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="44" name="/A20">
+      <node ref="U2" pin="45"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="45" name="+5V">
+      <node ref="U2" pin="56"/>
+      <node ref="U1" pin="14"/>
+      <node ref="X1" pin="8"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U6" pin="14"/>
+      <node ref="U1" pin="49"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U3" pin="20"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="U8" pin="14"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U2" pin="25"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="46" name="/D0">
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="47" name="/A21">
+      <node ref="U2" pin="46"/>
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="48" name="/A22">
+      <node ref="U2" pin="47"/>
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="49" name="/A23">
+      <node ref="U2" pin="48"/>
+      <node ref="U1" pin="52"/>
+    </net>
+    <net code="50" name="/D15">
+      <node ref="U1" pin="54"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="51" name="/D14">
+      <node ref="U1" pin="55"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="52" name="/D13">
+      <node ref="U1" pin="56"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="53" name="/D12">
+      <node ref="U4" pin="6"/>
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="54" name="/D11">
+      <node ref="U1" pin="58"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="55" name="/D10">
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="56" name="/AS">
+      <node ref="U2" pin="13"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="57" name="/D9">
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="60"/>
+    </net>
+    <net code="58" name="/D8">
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="61"/>
+    </net>
+    <net code="59" name="/D7">
+      <node ref="U1" pin="62"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="60" name="/D6">
+      <node ref="U1" pin="63"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="61" name="/D5">
+      <node ref="U1" pin="64"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="62" name="UDS">
+      <node ref="U9" pin="5"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="63" name="LDS">
+      <node ref="U9" pin="10"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="64" name="RW">
+      <node ref="U9" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="65" name="GND">
+      <node ref="U8" pin="13"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U8" pin="4"/>
+      <node ref="X1" pin="4"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="53"/>
+      <node ref="U8" pin="7"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U2" pin="41"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="66" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="67" name="CLK">
+      <node ref="X1" pin="5"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="68" name="Net-(RN1-Pad10)">
+      <node ref="RN1" pin="10"/>
+    </net>
+    <net code="69" name="/ANY">
+      <node ref="RN1" pin="3"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="70" name="/ALL">
+      <node ref="U2" pin="21"/>
+      <node ref="RN1" pin="4"/>
+    </net>
+    <net code="71" name="/GO">
+      <node ref="RN1" pin="5"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="72" name="Net-(RN1-Pad7)">
+      <node ref="RN1" pin="7"/>
+    </net>
+    <net code="73" name="Net-(RN1-Pad8)">
+      <node ref="RN1" pin="8"/>
+    </net>
+    <net code="74" name="Net-(RN1-Pad9)">
+      <node ref="RN1" pin="9"/>
+    </net>
+    <net code="75" name="DATA7">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="76" name="DATA6">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="77" name="DATA5">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="78" name="DATA4">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="79" name="DATA3">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="80" name="DATA2">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="81" name="DATA1">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="82" name="DATA0">
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="83" name="DATA15">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="84" name="DATA14">
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="85" name="DATA13">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="86" name="DATA12">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="87" name="DATA11">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="88" name="DATA10">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="89" name="DATA9">
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="90" name="DATA8">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="91" name="PA8">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="93" name="/ED">
+      <node ref="RN1" pin="6"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="94" name="MUDS">
+      <node ref="U2" pin="17"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="95" name="MLDS">
+      <node ref="U2" pin="18"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="98" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="99" name="PA23">
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="100" name="WIN">
+      <node ref="U2" pin="5"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="101" name="PA22">
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="102" name="PA21">
+      <node ref="U2" pin="51"/>
+    </net>
+    <net code="103" name="PA20">
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="104" name="PA19">
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="105" name="PA18">
+      <node ref="U2" pin="54"/>
+    </net>
+    <net code="106" name="PA17">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="107" name="PA16">
+      <node ref="U2" pin="57"/>
+    </net>
+    <net code="108" name="PA15">
+      <node ref="U2" pin="58"/>
+    </net>
+    <net code="109" name="PA14">
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="110" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="111" name="PA13">
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="112" name="PA12">
+      <node ref="U2" pin="61"/>
+    </net>
+    <net code="113" name="PA11">
+      <node ref="U2" pin="62"/>
+    </net>
+    <net code="114" name="PA10">
+      <node ref="U2" pin="63"/>
+    </net>
+    <net code="115" name="PA9">
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="116" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="117" name="/PAS">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="118" name="MAS">
+      <node ref="U8" pin="10"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="119" name="/\MAS">
+      <node ref="U5" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="120" name="/\AS">
+      <node ref="U5" pin="4"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="121" name="PUDS">
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="12"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="122" name="PLDS">
+      <node ref="R2" pin="2"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="123" name="Net-(U8-Pad2)">
+      <node ref="U9" pin="6"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="124" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="125" name="Net-(U5-Pad5)">
+      <node ref="U9" pin="3"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="126" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="127" name="Net-(U9-Pad9)">
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="128" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="129" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="130" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="131" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+    </net>
+  </nets>
+</export>
