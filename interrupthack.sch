@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -72,7 +72,7 @@ FC1
 Text GLabel 5400 1950 0    50   Input ~ 0
 FC2
 Text GLabel 4800 2150 0    50   Input ~ 0
-AS
+\AS
 $Comp
 L 74xx:74LS05 U10
 U 1 1 5F522D4E
@@ -111,9 +111,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 2250 8300 1500
 Text GLabel 8700 1700 2    50   Output ~ 0
-MAS
+\MAS
 Text GLabel 8300 2250 2    50   Output ~ 0
-ALL
+\ALL
 Text HLabel 8300 1500 0    50   UnSpc ~ 0
 ALL_R
 Wire Wire Line

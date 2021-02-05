@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -563,49 +563,6 @@ F 3 "" H 4750 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS00 U6
-U 1 1 5F49A598
-P 8950 2800
-F 0 "U6" H 8950 3125 50  0000 C CNN
-F 1 "74LS00" H 8950 3034 50  0000 C CNN
-F 2 "Package_SO:SOIC-14W_7.5x9mm_P1.27mm" H 8950 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8950 2800 50  0001 C CNN
-	1    8950 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS04 U5
-U 1 1 5F4A1C91
-P 8950 3350
-F 0 "U5" H 8950 3667 50  0000 C CNN
-F 1 "74LS04" H 8950 3576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8950 3350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8950 3350 50  0001 C CNN
-	1    8950 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS04 U5
-U 2 1 5F4A2E7E
-P 8950 3750
-F 0 "U5" H 8950 4067 50  0000 C CNN
-F 1 "74LS04" H 8950 3976 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8950 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 8950 3750 50  0001 C CNN
-	2    8950 3750
-	1    0    0    -1  
-$EndComp
-Text Label 9250 3350 0    50   ~ 0
-\MAS
-Text Label 9250 3750 0    50   ~ 0
-\AS
-Text Label 8650 2700 2    50   ~ 0
-\MAS
-Text Label 8650 2900 2    50   ~ 0
-\AS
-Text Label 9250 2800 0    50   ~ 0
-PAS
-$Comp
 L 74xx:74LS04 U5
 U 7 1 5F4AAA49
 P 8850 4700
@@ -671,36 +628,22 @@ F 3 "" H 8850 4200 50  0001 C CNN
 	1    8850 4200
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4400 6400 1200 750 
-U 5F4B6B1E
-F0 "PAD strobe" 50
-F1 "../file5F4B6B1D.sch" 50
-F2 "PUDS_R" U L 4400 6500 50 
-F3 "PLDS_R" U L 4400 6600 50 
-$EndSheet
-Text GLabel 5200 3500 0    50   Input ~ 0
-MUDS
-Text GLabel 5200 3600 0    50   Input ~ 0
-MLDS
-Text GLabel 4000 5350 2    50   BiDi ~ 0
-UDS
-Text GLabel 4000 5450 2    50   BiDi ~ 0
-LDS
-Text GLabel 4000 5550 2    50   BiDi ~ 0
-RW
+Text GLabel 4000 5350 2    50   Output ~ 0
+\UDS
+Text GLabel 4000 5450 2    50   Output ~ 0
+\LDS
+Text GLabel 4000 5550 2    50   Output ~ 0
+R\W
 Text GLabel 9850 4000 0    50   Input ~ 0
-RW
+R\W
 Text GLabel 9850 1900 0    50   Input ~ 0
-RW
+R\W
 Text GLabel 5200 5400 0    50   Input ~ 0
-RW
-Text GLabel 8650 3350 0    50   Input ~ 0
-MAS
+R\W
 Text GLabel 5200 4600 0    50   Output ~ 0
-MAS
+\MAS
 Text GLabel 5200 4300 0    50   Output ~ 0
-WIN
+\WIN
 $Sheet
 S 3150 6700 850  450 
 U 5F51607C
@@ -825,24 +768,22 @@ Wire Wire Line
 	8350 6200 8700 6200
 Connection ~ 8350 6200
 Connection ~ 8700 6200
-Text GLabel 2000 2350 0    50   BiDi ~ 0
+Text GLabel 2000 2350 0    50   Output ~ 0
 FC0
-Text GLabel 2000 2450 0    50   BiDi ~ 0
+Text GLabel 2000 2450 0    50   Output ~ 0
 FC1
-Text GLabel 2000 2550 0    50   BiDi ~ 0
+Text GLabel 2000 2550 0    50   Output ~ 0
 FC2
-Text GLabel 5200 1800 0    50   BiDi ~ 0
+Text GLabel 5200 1800 0    50   Input ~ 0
 FC0
-Text GLabel 5200 1900 0    50   BiDi ~ 0
+Text GLabel 5200 1900 0    50   Input ~ 0
 FC1
-Text GLabel 5200 2000 0    50   BiDi ~ 0
+Text GLabel 5200 2000 0    50   Input ~ 0
 FC2
-Text GLabel 8650 3750 0    50   Input ~ 0
-AS
-Text GLabel 5200 3400 0    50   BiDi ~ 0
-AS
+Text GLabel 5200 3400 0    50   Input ~ 0
+\AS
 Text GLabel 4000 5250 2    50   Output ~ 0
-AS
+\AS
 Text GLabel 2450 6550 0    50   UnSpc ~ 0
 ALL
 Text GLabel 5200 3100 0    50   BiDi ~ 0
@@ -887,10 +828,6 @@ Wire Wire Line
 	10300 6200 9950 6200
 Connection ~ 10300 6200
 Connection ~ 9950 6200
-Text Label 4400 6500 2    50   ~ 0
-PUDS_R
-Text Label 4400 6600 2    50   ~ 0
-PLDS_R
 Text Label 3150 6850 2    50   ~ 0
 ALL_R
 Text Label 4000 6800 0    50   ~ 0
@@ -899,14 +836,74 @@ Text Label 2450 6850 2    50   ~ 0
 ALL_R
 Text Label 2450 6950 2    50   ~ 0
 MAS_R
-Text Label 2450 7050 2    50   ~ 0
-PUDS_R
-Text Label 2450 7150 2    50   ~ 0
-PLDS_R
 $Sheet
 S 6000 6600 700  500 
 U 5F4348A9
 F0 "Memory" 50
 F1 "mem.sch" 50
+$EndSheet
+Text GLabel 2000 1450 0    50   Input ~ 0
+\IPL0
+Text GLabel 2000 1550 0    50   Input ~ 0
+\IPL1
+Text GLabel 2000 1650 0    50   Input ~ 0
+\IPL2
+Text GLabel 2000 1850 0    50   Input ~ 0
+\BGACK
+Text GLabel 2000 1950 0    50   Output ~ 0
+\BG
+Text GLabel 2000 2050 0    50   Input ~ 0
+\BR
+Text GLabel 2000 2850 0    50   Output ~ 0
+\VMA
+Text GLabel 2000 2950 0    50   Output ~ 0
+E
+Text GLabel 2000 3050 0    50   Input ~ 0
+\VPA
+Text GLabel 2000 3950 0    50   Input ~ 0
+\BERR
+Text GLabel 2000 4550 0    50   BiDi ~ 0
+\HALT
+Text GLabel 2000 4650 0    50   BiDi ~ 0
+\RST
+Text GLabel 5200 1600 0    50   Input ~ 0
+\MMUSEL
+Text GLabel 5200 5100 0    50   Input ~ 0
+\RST
+Text GLabel 5200 3750 0    50   BiDi ~ 0
+\IRQ
+Text GLabel 5200 4800 0    50   BiDi ~ 0
+\BERR
+Text GLabel 5200 4500 0    50   Output ~ 0
+\HAD
+$Sheet
+S 4650 6650 1000 450 
+U 601BFF66
+F0 "Physical data strobe" 50
+F1 "pds.sch" 50
+F2 "PUDS_R" O L 4650 6850 50 
+F3 "PLDS_R" O L 4650 6950 50 
+F4 "PUDS_M" O L 4650 6700 50 
+F5 "PLDS_M" O L 4650 6750 50 
+$EndSheet
+Text HLabel 5200 3600 0    50   Input ~ 0
+\PLDS_M
+Text HLabel 5200 3500 0    50   Input ~ 0
+\PUDS_M
+Text HLabel 2450 7050 0    50   Input ~ 0
+PUDS_R
+Text HLabel 2450 7150 0    50   Input ~ 0
+PLDS_R
+$Sheet
+S 4200 6000 500  350 
+U 60229C16
+F0 "PAS Generator" 50
+F1 "pas_gen.sch" 50
+$EndSheet
+$Sheet
+S 3150 7350 600  300 
+U 6037D76A
+F0 "External IO and MMUSEL" 50
+F1 "externio.sch" 50
 $EndSheet
 $EndSCHEMATC

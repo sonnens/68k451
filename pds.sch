@@ -1,0 +1,193 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 2950 2650 0    50   Input ~ 0
+R\W
+Text GLabel 2950 2850 0    50   Input ~ 0
+\WIN
+Text GLabel 2950 2950 0    50   Input ~ 0
+\UDS
+Text GLabel 4450 3450 0    50   Input ~ 0
+\LDS
+Text GLabel 5350 3600 0    50   Input ~ 0
+\MAS
+$Comp
+L 74xx:74LS32 U8
+U 1 1 601C57F5
+P 3250 2750
+F 0 "U8" H 3250 3075 50  0000 C CNN
+F 1 "74LS32" H 3250 2984 50  0000 C CNN
+F 2 "" H 3250 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 3250 2750 50  0001 C CNN
+	1    3250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U8
+U 2 1 601CE197
+P 4750 2850
+F 0 "U8" H 4750 3175 50  0000 C CNN
+F 1 "74LS32" H 4750 3084 50  0000 C CNN
+F 2 "" H 4750 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4750 2850 50  0001 C CNN
+	2    4750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U5
+U 1 1 601D1779
+P 3850 2750
+F 0 "U5" H 3850 3067 50  0000 C CNN
+F 1 "74LS04" H 3850 2976 50  0000 C CNN
+F 2 "" H 3850 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3850 2750 50  0001 C CNN
+	1    3850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U8
+U 3 1 601DBAE4
+P 4750 3350
+F 0 "U8" H 4750 3675 50  0000 C CNN
+F 1 "74LS32" H 4750 3584 50  0000 C CNN
+F 2 "" H 4750 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4750 3350 50  0001 C CNN
+	3    4750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U9
+U 1 1 601DD538
+P 5350 2850
+F 0 "U9" H 5350 3167 50  0000 C CNN
+F 1 "74LS125" H 5350 3076 50  0000 C CNN
+F 2 "" H 5350 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 5350 2850 50  0001 C CNN
+	1    5350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U9
+U 2 1 601DE72E
+P 5350 3350
+F 0 "U9" H 5350 3667 50  0000 C CNN
+F 1 "74LS125" H 5350 3576 50  0000 C CNN
+F 2 "" H 5350 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 5350 3350 50  0001 C CNN
+	2    5350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U9
+U 3 1 601DFE10
+P 6250 2850
+F 0 "U9" H 6250 3167 50  0000 C CNN
+F 1 "74LS125" H 6250 3076 50  0000 C CNN
+F 2 "" H 6250 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 6250 2850 50  0001 C CNN
+	3    6250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS125 U9
+U 4 1 601E0651
+P 6250 3350
+F 0 "U9" H 6250 3667 50  0000 C CNN
+F 1 "74LS125" H 6250 3576 50  0000 C CNN
+F 2 "" H 6250 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 6250 3350 50  0001 C CNN
+	4    6250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3100 5350 3600
+$Comp
+L power:GND #PWR0122
+U 1 1 601E794D
+P 6250 3600
+F 0 "#PWR0122" H 6250 3350 50  0001 C CNN
+F 1 "GND" H 6255 3427 50  0000 C CNN
+F 2 "" H 6250 3600 50  0001 C CNN
+F 3 "" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 601E8165
+P 6250 3150
+F 0 "#PWR0123" H 6250 2900 50  0001 C CNN
+F 1 "GND" H 6255 2977 50  0000 C CNN
+F 2 "" H 6250 3150 50  0001 C CNN
+F 3 "" H 6250 3150 50  0001 C CNN
+	1    6250 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2850 5950 2850
+Wire Wire Line
+	5650 3350 5950 3350
+Wire Wire Line
+	5950 2850 5950 2350
+Wire Wire Line
+	5950 2350 6750 2350
+Connection ~ 5950 2850
+Wire Wire Line
+	5950 3350 5950 3850
+Connection ~ 5950 3350
+Wire Wire Line
+	6550 2850 6600 2850
+Wire Wire Line
+	6550 3350 6600 3350
+Wire Wire Line
+	6600 2850 6600 2600
+Wire Wire Line
+	6600 2600 6750 2600
+Connection ~ 6600 2850
+Wire Wire Line
+	6600 2850 6750 2850
+Wire Wire Line
+	6600 3350 6600 3600
+Wire Wire Line
+	6600 3600 6750 3600
+Connection ~ 6600 3350
+Wire Wire Line
+	6600 3350 6750 3350
+Wire Wire Line
+	5950 3850 6750 3850
+Text HLabel 6750 2600 2    50   Output ~ 0
+PUDS_R
+Text HLabel 6750 3600 2    50   Output ~ 0
+PLDS_R
+Text GLabel 6750 2350 2    50   Output ~ 0
+\PUDS
+Text GLabel 6750 3850 2    50   Output ~ 0
+\PLDS
+Text HLabel 6750 2850 2    50   Output ~ 0
+PUDS_M
+Text HLabel 6750 3350 2    50   Output ~ 0
+PLDS_M
+Wire Wire Line
+	4150 2750 4200 2750
+Wire Wire Line
+	4200 2750 4200 3250
+Wire Wire Line
+	4200 3250 4450 3250
+Connection ~ 4200 2750
+Wire Wire Line
+	4200 2750 4450 2750
+Wire Wire Line
+	4450 2950 2950 2950
+$EndSCHEMATC
